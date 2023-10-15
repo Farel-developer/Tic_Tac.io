@@ -1,0 +1,48 @@
+<!DOCTYPE Html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <div class="top_head"></div>
+    <div class="top"></div>
+      <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Menu</title>
+    <div class="text_logo">
+<h1>TIC-TAC</h1>
+<div class="byname">
+<h6>BY FAREL DEVELOPER</h6></div>
+<div class="instagram"><i onclick="window.location='https://instagram.com/farel_alfareza5?igshid=NzZlODBkYWE4Ng=='" class="fa fa-instagram"></i></div>
+    </div><div class="share"><i onclick="window.location='link.html'" class="fa fa-share-alt"></i></div>
+  </head>
+  <body>
+    <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<button class="ic_btn1"><i class="fa fa-user-plus"></i></button><button class="btn1" onclick="window.location='tic.html'"> <font size="2" >PLAY WITH FRIENDS</button><br><br>
+<button class="ic_btn1"><i class="fa fa-users"></i></button><button class="btn1" onclick="window.location='ai_tic.html'"></i><font size="2">  ONLINE</button><br><br>
+<button class="ic_btn1"><i class="fa fa-mail-reply"></i></button><button class="btn1" onclick="window.location='index.html'"></i> <font size="2">
+BACK</button><br><br>
+  </body>
+</html><br><br>
+      <h3 id="p"></h3>
+<script>
+  function load() {
+    let name = document.getElementById("name").value
+    let p = document.getElementById("p")
+    localStorage.setItem("Name", name)
+    console.log(localStorage)
+    p.innerHTML = "<p>Hey</p>" + name + "!" + "<p> Your account is being created ! </p><br><p>To view your Password and info go to the console and check your local storage</p>"
+  
+  }
+</script>

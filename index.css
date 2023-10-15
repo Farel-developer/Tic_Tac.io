@@ -1,0 +1,100 @@
+.background {
+  background-color: transparent;
+  height: 100vh;
+  padding-top: 1px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'serif', cursive;
+}
+body{
+  background-image:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5To87hPjQHoEzb2k8l8EQNjEvH60Ttf55P2wIW6N4PqKRN4JrtNLVX04ph5ZqOzap8elh_dUUFBTbwwpn7J4ng-sDh_MWpd4c2ssXMqqxOMfiEM6rXoj26MC7ABfjs_bAHdtOZGeKHfzs1zdOfw6a3rMEgKT7cBfyT-N6Y9SUybn4J6ZfqCkrqDnDdkef/s500/b3ac73145197895.629b3c539ce65.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.top_head{
+  position: fixed;
+  top: 0vh;
+  left: 0vh;
+  background-color: black;
+  width: 320px;
+  height: 60px;
+  box-shadow: 0 0 5px black;
+}
+.top{
+  background-color: #3B3B3B80;
+  width: 320px;
+  height: 35px;
+  position: fixed;
+  left: 0vh;
+  top: 9vh;
+  box-shadow: 0 0 4px black;
+}
+.text_logo{
+  position: fixed;
+  top: 2vh;
+  left: 3vh;
+  color: white;
+}
+.instagram{
+  color: white;
+  font-size: 45px;
+  position: fixed;
+  right: 2vh;
+  top: 1vh;
+}
+.share{
+  color: white;
+  font-size: 35px;
+  position: fixed;
+  right: 10vh;
+  top: 2vh;
+}
+.instagram:hover{
+  color: yellow;
+}
+.share:hover{
+  color: yellow;
+}
+.byname{
+  position: fixed;
+  top: 11vh;
+  left: 3vh;
+}
+.bug{
+  position: fixed;
+  left: 2vh;
+  top: 1vh;
+  font-size: 45px;
+  color: white;
+}
+.bug:hover{
+  color: yellow;
+}
+.btn1{
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: #00000096;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 0 2px white;
+}
+.btn1:hover{
+  background-color:#000000C7;
+  width: 201px;
+  height: 31px;
+  color: yellow;
+  font-size: 26px;
+  box-shadow: 0 0 3px yellow;
+}
+.ic_btn1{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #42445AB0;
+  color: white;
+  box-shadow: 0 0 2px white;
+}

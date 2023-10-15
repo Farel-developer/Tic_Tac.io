@@ -1,0 +1,116 @@
+body{
+  background-image:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5To87hPjQHoEzb2k8l8EQNjEvH60Ttf55P2wIW6N4PqKRN4JrtNLVX04ph5ZqOzap8elh_dUUFBTbwwpn7J4ng-sDh_MWpd4c2ssXMqqxOMfiEM6rXoj26MC7ABfjs_bAHdtOZGeKHfzs1zdOfw6a3rMEgKT7cBfyT-N6Y9SUybn4J6ZfqCkrqDnDdkef/s500/b3ac73145197895.629b3c539ce65.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'serif', cursive;
+}
+
+.background {
+  background-color: transparent;
+  height: 100vh;
+  padding-top: 1px;
+}
+
+.title {
+  color: rgb(80, 80, 80);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  color: white;
+}
+
+.title label {
+  font-size: 30px;
+  color: white;
+}
+
+.display {
+  color: rgb(80, 80, 80);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  background-color: #000000BA;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+
+}
+
+.tile {
+  border: none;
+  border-radius: 10px;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #EF7CFF;
+  color: rgb(80, 80, 80);
+  background-color: #000000B3;
+}
+
+.tile:active {
+  background: rgb(80, 80, 80);
+  color: transparent;
+  z-index: 9;
+}
+
+.playerX {
+  color: rgb(80, 80, 80);
+  color: #DF00FF;
+}
+
+.playerO {
+  color: rgb(80, 80, 80);
+  color: #FFD63A;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.controls button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 1em ;
+  cursor: pointer;
+  font-size: 28px;
+  color: rgb(80, 80, 80);
+}
+
+.restart {
+  background-color: #E6E6E6;
+}
+
+#reset {
+  background-color: #000000BD;
+  color: white;
+}
+
+#reset:active {
+  color: yellow;
+  background-color: #000000E8;
+}
